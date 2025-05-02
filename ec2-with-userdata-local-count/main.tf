@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIATNNXRCFWMLVF5A6D"
-  secret_key = "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"
+  access_key = 
+  secret_key = 
 }
 
 # List of instance names and corresponding content
