@@ -1,5 +1,5 @@
 provider "aws" {
-  region = var.region
+  region  = var.region
   profile = var.profile
 }
 
@@ -20,3 +20,4 @@ module "ec2" {
   subnet_id     = module.vpc.public_subnets[0]
   instance_name = var.instance_name
 }
+

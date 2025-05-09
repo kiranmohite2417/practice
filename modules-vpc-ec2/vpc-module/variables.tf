@@ -13,7 +13,7 @@ variable "public_subnets" {
   type        = list(string)
 }
 
-variable "availibility_zones" {
-  description = "List of availibility zones"
+variable "availability_zones" {
+  description = "List of AZs"
   type        = list(string)
 }
